@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB254D4B1DBF6E660047245A /* PlainLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB254D4A1DBF6E660047245A /* PlainLoaderView.swift */; };
 		EB400B241D9CDA9700B7A1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB400B231D9CDA9700B7A1D4 /* AppDelegate.swift */; };
 		EB400B261D9CDA9700B7A1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB400B251D9CDA9700B7A1D4 /* ViewController.swift */; };
 		EB400B291D9CDA9700B7A1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB400B271D9CDA9700B7A1D4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB254D4A1DBF6E660047245A /* PlainLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainLoaderView.swift; sourceTree = "<group>"; };
 		EB400B201D9CDA9700B7A1D4 /* PlainLoaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlainLoaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB400B231D9CDA9700B7A1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB400B251D9CDA9700B7A1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		EB400B221D9CDA9700B7A1D4 /* PlainLoaderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB254D4A1DBF6E660047245A /* PlainLoaderView.swift */,
 				EB400B231D9CDA9700B7A1D4 /* AppDelegate.swift */,
 				EB400B251D9CDA9700B7A1D4 /* ViewController.swift */,
 				EB400B271D9CDA9700B7A1D4 /* Main.storyboard */,
@@ -96,6 +99,8 @@
 				TargetAttributes = {
 					EB400B1F1D9CDA9700B7A1D4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 27D5AK34R7;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB254D4B1DBF6E660047245A /* PlainLoaderView.swift in Sources */,
 				EB400B261D9CDA9700B7A1D4 /* ViewController.swift in Sources */,
 				EB400B241D9CDA9700B7A1D4 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27D5AK34R7;
 				INFOPLIST_FILE = PlainLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saravanan.PlainLoaderDemo;
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27D5AK34R7;
 				INFOPLIST_FILE = PlainLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saravanan.PlainLoaderDemo;
@@ -299,6 +307,7 @@
 				EB400B341D9CDA9700B7A1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
