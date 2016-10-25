@@ -5,7 +5,7 @@ Demonstrates the PlainLoaderView Animations that reflects the <a href="https://i
 <br>
 There is also a writeup on the <a href="">Imaginea blog</a>.
 
-![PlainLoaderViewDemo]()
+![PlainLoaderViewDemo](https://raw.githubusercontent.com/codersaru/PlainLoaderViewDemo/master/PlainLoaderViewDemo.gif)
 
 <br>
 
@@ -46,11 +46,11 @@ On Your UIViewController's UI setup method, add these lines:<br/>
 If you’re downloading a series of files and in need to animate in chunks to show the progress, then calculate the percentage and inform the loader on the same.<br/>
 For Example, say you want to download ‘imagesCount’ number of images from the server and you’re saving those images into ‘imagesArray’ Array, then this is how you should calculate the percentage:<br/>
 ```swift	
-        let percentage = ( (imagesCount - imagesArray.count) / imagesCount )
+	let percentage = ( (imagesCount - imagesArray.count) / imagesCount )
 ```
 And assign it to the PlainLoaderView with this line of code:
 ```swift	
-        loadingView.progress = percentage
+	loadingView.progress = percentage
 ```
 
 <br/>
