@@ -5,7 +5,7 @@ Demonstrates the PlainLoaderView Animations that reflects the <a href="https://i
 <br>
 There is also a writeup on the <a href="">Imaginea blog</a>.
 
-![PlainLoaderViewDemo](https://raw.githubusercontent.com/codersaru/PlainLoaderViewDemo/master/PlainLoaderViewDemo.gif)
+![PlainLoaderViewDemo](https://raw.githubusercontent.com/codersaru/PlainLoaderViewDemo/master/GIF/PlainLoaderViewDemo.gif)
 
 <br>
 
