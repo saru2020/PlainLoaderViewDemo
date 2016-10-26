@@ -58,4 +58,7 @@ And assign it to the PlainLoaderView with this line of code:
 <br/>
 <b>Apps Using this Library :</b>
 
-<a href="https://itunes.apple.com/in/app/fontli/id506650372?mt=8">Fontli</a>
+<a href="https://itunes.apple.com/in/app/fontli/id506650372?mt=8">Fontli</a><br/>
+<br/>
+<br/>
+<a href="mailto:saravanan.v@imaginea.com">Email me</a>, if you want some Marketing ;)<br/>
