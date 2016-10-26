@@ -56,9 +56,9 @@ And assign it to the PlainLoaderView with this line of code:
 <i>PlainLoaderView will automagically update the stroke progress with animation, just like it does in Fontli.</i><br/>
 
 <br/>
-<b>Apps Using this Library :</b>
+<b>Apps Using this Library :</b><a href="mailto:saravanan.v@imaginea.com"> (Email me</a>, if you want some Marketing ;) )<br/>
 
 <a href="https://itunes.apple.com/in/app/fontli/id506650372?mt=8">Fontli</a><br/>
 <br/>
 <br/>
-<a href="mailto:saravanan.v@imaginea.com">Email me</a>, if you want some Marketing ;)<br/>
+
