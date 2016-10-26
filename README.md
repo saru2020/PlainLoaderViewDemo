@@ -3,7 +3,7 @@ PlainLoaderViewDemo
 Demonstrates the PlainLoaderView Animations that reflects the <a href="https://itunes.apple.com/in/app/fontli/id506650372?mt=8">Fontli App's</a> Splash screen loading view animation.
 
 <br>
-There is also a writeup on the <a href="">Imaginea blog</a>.
+There is also a writeup on the <a href="https://blog.imaginea.com/plainloaderview/">Imaginea blog</a>.
 
 ![PlainLoaderViewDemo](https://raw.githubusercontent.com/codersaru/PlainLoaderViewDemo/master/GIF/PlainLoaderViewDemo.gif)
 
@@ -12,7 +12,7 @@ There is also a writeup on the <a href="">Imaginea blog</a>.
 <b>Installation :</b><br/>
 
 	(i) Import "PlainLoaderView.swift" file into your project.
-	(ii) NO Other step, jump to setting it up in your controller.
+	(ii) NO other step, jump to setting it up in your controller.
 	
 <br/>
 <b>Usage :</b>
@@ -33,7 +33,7 @@ On Your UIViewController's UI setup method, add these lines:<br/>
 <b>To change the loader view’s background & animation stroke colors respectively using these 2 lines of code:</b><br/>
 ```swift	
 	loader.backgroundColor = UIColor.gray // Defaults to clear/no-color
-	loader.loaderStrokeColor = UIColor.orange // Defaults to clear/no-color
+	loader.loaderStrokeColor = UIColor.red // Defaults to clear/no-color
 ```
 
 
@@ -41,7 +41,8 @@ On Your UIViewController's UI setup method, add these lines:<br/>
 ```swift	
 	loader.startAnimation()
 ```
-
+<br/>
+<br/>
 <b>Progressive Animation:</b><br/>
 If you’re downloading a series of files and in need to animate in chunks to show the progress, then calculate the percentage and inform the loader on the same.<br/>
 <i>For Example, say you want to download ‘imagesCount’ number of images from the server and you’re saving those images into ‘imagesArray’ Array, then this is how you should calculate the percentage:</i><br/>
