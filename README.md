@@ -43,7 +43,7 @@ On Your UIViewController's UI setup method, add these lines:<br/>
 ```
 <br/>
 <br/>
-<b>Progressive Animation:</b><br/>
+<b>Progressive Animation: </b><br/>
 If you’re downloading a series of files and in need to animate in chunks to show the progress, then calculate the percentage and inform the loader on the same.<br/>
 <i>For Example, say you want to download ‘imagesCount’ number of images from the server and you’re saving those images into ‘imagesArray’ Array, then this is how you should calculate the percentage:</i><br/>
 ```swift	
